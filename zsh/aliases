@@ -1,0 +1,54 @@
+# cd
+alias ..='cd ..'
+
+# ls
+alias ls="ls -F"
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la='ls -A'
+
+# git
+alias g='git'
+alias ga='git add'
+alias gaa='git add .'
+alias gm='git merge --no-ff'
+alias gmn='git merge --no-ff --no-commit'
+alias gmf='git merge --ff-only'
+alias gs='git status -b'
+alias gl='git pull'
+alias glr='git pull --rebase'
+alias gr='git remote'
+alias gf='git fetch'
+alias gp='git push'
+alias gd='git diff'
+alias gdm='git diff | grep "<<<<<"'
+alias gdc='git diff --cached'
+alias gc='git commit -v'
+alias gca='git commit -v -a'
+alias gb='git branch'
+alias gba='git branch -a -v'
+alias gcount='git shortlog -sn'
+alias gcp='git cherry-pick'
+alias glg='git log'
+alias gg='git log --graph'
+alias gga='git log --graph --all --not refs/notes/build'
+alias ggb='git log --show-notes=build --format=buildnotes'
+alias gco='git checkout'
+alias gsv='git svn'
+alias gt='git tag'
+
+alias git='nocorrect noglob git'
+
+# rails
+alias rc='rails c'
+alias rs='rails s'
+alias rg='rails g'
+alias rdb='rails dbconsole'
+alias tlog='tail -f log/development.log'
+alias migrate='rake db:migrate db:test:clone'
+alias it="echo '\e[44mStarting Infinity Test with: --rspec\e[0m' &&infinity_test --rspec"
+alias cpw='cucumber -p wip'
+
+alias ec='emacsclient'
+alias e=openemacs
+alias emacs=/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw
