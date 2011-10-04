@@ -1,5 +1,4 @@
-;; current line highlight
-(global-hl-line-mode 1)
+;; current line highlight color
 (set-face-background 'hl-line "#383737")
 
 ;; no blinking cursor
