@@ -5,4 +5,4 @@
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-PATH=/usr/local/bin:$PATH
+PATH=/usr/local/bin:~/bin:~/.bin:$PATH
