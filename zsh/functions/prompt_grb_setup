@@ -4,6 +4,7 @@
 # copied from wunjo prompt theme and modified
 
 autoload -U zgitinit
+zmodload zsh/regex
 zgitinit
 
 prompt_grb_help () {
@@ -87,6 +88,8 @@ function prompt_grb_scm_info() {
 prompt_grb_setup() {
     local verbose
     if [[ $TERM == screen* ]] && [ -n "$STY" ]; then
+      verbose=
+    elif [[ $HOST -regex-match \.garaio\.com ]]; then
       verbose=
     else
       verbose=1
