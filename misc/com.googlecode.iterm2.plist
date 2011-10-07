@@ -923,12 +923,8 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
-	<key>NSNavBrowserPreferedColumnContentWidth</key>
-	<real>186</real>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Projects/dotfiles/misc</string>
-	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{1075, 772}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -944,20 +940,130 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>198</string>
+		<string>246</string>
+	</array>
+	<key>NSTableView Columns NSNavOutlineColumnSettings.v1</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErC2Rpc3BsYXlOYW1lhg==
+		</data>
+		<string>259</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErB21vZERhdGWG
+		</data>
+		<string>88</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErDGNyZWF0aW9uRGF0ZYY=
+		</data>
+		<string>95</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErDmxhc3RPcGVuZWREYXRlhg==
+		</data>
+		<string>95</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErE2tpbmRXaXRob3V0UGxhdGZvcm2G
+		</data>
+		<string>62</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErDHNob3J0VmVyc2lvboY=
+		</data>
+		<string>62</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErCWxhYmVsTmFtZYY=
+		</data>
+		<string>62</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErDHBoeXNpY2FsU2l6ZYY=
+		</data>
+		<string>60</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
+	<key>NSTableView Hidden Columns NSNavOutlineColumnSettings.v1</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErDGNyZWF0aW9uRGF0ZYY=
+		</data>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErDmxhc3RPcGVuZWREYXRlhg==
+		</data>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErE2tpbmRXaXRob3V0UGxhdGZvcm2G
+		</data>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErDHNob3J0VmVyc2lvboY=
+		</data>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErCWxhYmVsTmFtZYY=
+		</data>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErDHBoeXNpY2FsU2l6ZYY=
+		</data>
+	</array>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
+	<key>NSTableView Sort Ordering NSNavOutlineColumnSettings.v1</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErB21vZERhdGWG
+		</data>
+		<false/>
+	</array>
+	<key>NSToolbar Configuration Terminal Toolbar</key>
+	<dict>
+		<key>TB Default Item Identifiers</key>
+		<array>
+			<string>New</string>
+			<string>Info</string>
+			<string>Close</string>
+			<string>Command</string>
+			<string>Profiles</string>
+		</array>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Item Identifiers</key>
+		<array>
+			<string>New</string>
+			<string>Info</string>
+			<string>NSToolbarSeparatorItem</string>
+			<string>NSToolbarCustomizeToolbarItem</string>
+			<string>Close</string>
+			<string>NSToolbarSeparatorItem</string>
+			<string>Command</string>
+			<string>Profiles</string>
+		</array>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+		<key>TB Visibility Priority Values</key>
+		<dict/>
+	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>617 563 851 483 0 0 1920 1200 </string>
+	<string>864 613 851 483 0 0 2560 1440 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>1181 876 384 129 0 0 1920 1178 </string>
+	<string>2160 0 384 129 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>69 723 652 449 0 0 1920 1200 </string>
+	<string>4 865 652 449 0 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>275 157 572 452 0 0 1920 1200 </string>
+	<string>398 167 570 456 0 0 2560 1418 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1459,7 +1565,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Scrollback With Status Bar</key>
 			<false/>
 			<key>Scrollback in Alternate Screen</key>
@@ -1499,7 +1605,7 @@
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<false/>
 			<key>Use Bright Bold</key>
@@ -1525,7 +1631,7 @@
 	<key>PasteFromClipboard</key>
 	<true/>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/samuel/Projects/dotfiles/misc</string>
+	<string>/Users/samuel/Projects/dotfiles/misc/</string>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1543,7 +1649,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2011-10-01T09:09:58Z</date>
+	<date>2011-10-06T05:27:38Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
