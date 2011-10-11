@@ -89,7 +89,7 @@ prompt_grb_setup() {
     local verbose
     if [[ $TERM == screen* ]] && [ -n "$STY" ]; then
       verbose=
-    elif [[ $HOST -regex-match \.garaio\.com ]]; then
+    elif [[ $HOST -regex-match garaio ]]; then
       verbose=
     else
       verbose=1
