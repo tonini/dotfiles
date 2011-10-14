@@ -1,6 +1,7 @@
 *.elc
 \#*
 doc/*
+emacs.d/bookmarks
 emacs.d/backup
 emacs.d/backup.*
 emacs.d/org-clock-save.el
