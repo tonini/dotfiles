@@ -28,3 +28,9 @@
 (setq org-capture-templates
       '(("p" "Project Todo Files" entry (function tonini-org-project-file)
          "** TODO %?\n  %T")))
+
+(setq org-todo-keywords
+      '((sequence "TODO(t)" "|" "DONE")
+        (sequence "BUG(b)" "|" "FIXED")
+        (sequence "FEATURE(f)" "|" "FINISHED")
+        (sequence "|" "CANCELED")))
