@@ -8,3 +8,6 @@
 ;; buffer navigation
 (e-max-global-set-key (kbd "C-ä") 'forward-buffer)
 (e-max-global-set-key (kbd "C-ö") 'backward-buffer)
+
+;; cua-mode
+(e-max-global-set-key (kbd "C-c m") 'cua-mode)
