@@ -40,18 +40,17 @@ alias gt='git tag'
 alias git='nocorrect noglob git'
 
 # rails
-alias rc='rails c'
-alias rs='rails s'
-alias rg='rails g'
-alias rdb='rails dbconsole'
+alias rc='bin/rails c'
+alias rs='bin/rails s'
+alias rg='bin/rails g'
+alias rdb='bin/rails dbconsole'
 alias tlog='tail -f log/development.log'
-alias migrate='rake db:migrate db:test:clone'
-alias it="echo '\e[44mStarting Infinity Test with: --rspec\e[0m' &&infinity_test --rspec"
-alias cpw='cucumber -p wip'
+alias migrate='bin/rake db:migrate db:test:clone'
+alias cpw='bin/cucumber -p wip'
 
 alias ec='emacsclient'
 alias e=openemacs
 alias emacs=/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw
 
 # fast specs
-alias fsp='find spec/lib -name "*_spec.rb" | xargs grep -iL "spec_helper" | xargs rspec'
+alias husch='find spec/lib -name "*_spec.rb" | xargs grep -iL "spec_helper" | xargs rspec'
