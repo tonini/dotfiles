@@ -52,5 +52,5 @@ alias ec='emacsclient'
 alias e=openemacs
 alias emacs=/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw
 
-# fast specs
-alias husch='find spec/lib -name "*_spec.rb" | xargs grep -iL "spec_helper" | xargs rspec'
+# job
+alias fb='git push -f origin HEAD:build/sto0242'
