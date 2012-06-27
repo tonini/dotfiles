@@ -2,7 +2,7 @@
 (if (fboundp 'blink-cursor-mode)
     (blink-cursor-mode 0))
 
-(set-background-color "black")
+(add-to-list 'default-frame-alist '(background-color . "black"))
 
 ;; set the cursor type
 (setq default-cursor-type 'box)
