@@ -4,6 +4,9 @@
 
 (add-to-list 'default-frame-alist '(background-color . "black"))
 
+;; mode-line customization
+(set-face-background 'modeline "#ff0000 ")
+
 ;; set the cursor type
 (setq default-cursor-type 'box)
 
