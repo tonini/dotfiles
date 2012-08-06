@@ -6,4 +6,4 @@
 
 
 
-PATH=/usr/local/bin:~/bin:~/.bin:$PATH
+PATH=/usr/local/bin:~/bin:~/.bin:/usr/local/sbin:$PATH
