@@ -1,5 +1,5 @@
 (defvar tonini--org-project-file-path
-  (concat e-max-org-files "projects/"))
+  (concat cabbage-org-files "projects/"))
 
 (defun tonini-org-project-files ()
   (directory-files tonini--org-project-file-path nil "\\.org$"))

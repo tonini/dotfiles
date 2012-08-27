@@ -3,5 +3,5 @@
 
 (defun tonini-javascript-mode-hook ()
   (when (and buffer-file-name (string-match "_spec.js$" buffer-file-name))
-  (setq e-max-testing-execute-function 'tonini-jasmine-node-run-single-file)))
+  (setq cabbage-testing-execute-function 'tonini-jasmine-node-run-single-file)))
 (add-hook 'js-mode-hook 'tonini-javascript-mode-hook)

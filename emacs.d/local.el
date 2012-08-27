@@ -7,4 +7,4 @@
 
   (setq rspec-use-bundler-when-possible t))
 
-(add-hook 'e-max-initialized-hook 'tonini-load-private-setup)
+(add-hook 'cabbage-initialized-hook 'tonini-load-private-setup)
