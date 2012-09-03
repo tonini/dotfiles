@@ -1,9 +1,10 @@
+(setq tonini--cabbage-private-dir
+      (expand-file-name "~/.emacs.d/private/"))
+
 (defun tonini-load-private-setup ()
-  (load (concat (expand-file-name "~/.emacs.d/private/cua-mode")))
-  (load (concat (expand-file-name "~/.emacs.d/private/org-mode")))
-  (load (concat (expand-file-name "~/.emacs.d/private/bindings")))
-  (load (concat (expand-file-name "~/.emacs.d/private/display")))
-  (load (concat (expand-file-name "~/.emacs.d/private/javascript")))
+  ;; Load all *.el file under the private directory
+  (dolist (file (directory-files tonini--cabbage-private-dir t "\\.el$"))
+    (load file))
 
   (setq rspec-use-bundler-when-possible t))
 
