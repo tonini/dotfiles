@@ -11,8 +11,5 @@
 (cabbage-global-set-key (kbd "C-ä") 'forward-buffer)
 (cabbage-global-set-key (kbd "C-ö") 'backward-buffer)
 
-;; cua-mode
-(cabbage-global-set-key (kbd "C-c m") 'cua-mode)
-
 ;; buffer handling
 (cabbage-global-set-key (kbd "C-x M-k") 'kill-this-buffer)
