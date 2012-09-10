@@ -1,5 +1,0 @@
-if [ -f Gemfile ]
-then
-    rm .gem_source
-    echo git > .gem_source
-fi
