@@ -1,0 +1,5 @@
+(tonini-vendor 'tabulated-list)
+(tonini-vendor 'logito)
+(tonini-vendor 'pcache)
+(tonini-vendor 'gh)
+(tonini-vendor 'gist)

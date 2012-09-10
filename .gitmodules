@@ -1,0 +1,15 @@
+[submodule "emacs.d/vendor/tabulated-list"]
+	path = emacs.d/vendor/tabulated-list
+	url = https://github.com/sigma/tabulated-list.el.git
+[submodule "emacs.d/vendor/gh"]
+	path = emacs.d/vendor/gh
+	url = https://github.com/sigma/gh.el.git
+[submodule "emacs.d/vendor/pcache"]
+	path = emacs.d/vendor/pcache
+	url = https://github.com/sigma/pcache.git
+[submodule "emacs.d/vendor/logito"]
+	path = emacs.d/vendor/logito
+	url = https://github.com/sigma/logito.git
+[submodule "emacs.d/vendor/gist"]
+	path = emacs.d/vendor/gist
+	url = https://github.com/defunkt/gist.el.git

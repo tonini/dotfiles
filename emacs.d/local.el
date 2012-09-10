@@ -1,6 +1,25 @@
 (setq tonini--cabbage-private-dir
       (expand-file-name "~/.emacs.d/private/"))
 
+(setq tonini-vendor-dir
+      (expand-file-name "~/.emacs.d/vendor/"))
+
+;; for loading libraries in from the vendor directory
+;; this function is from cabbage (cabbage-vendor)
+(defun tonini-vendor (library)
+  (let* ((file (symbol-name library))
+         (normal (concat tonini-vendor-dir file))
+         (suffix (concat normal ".el")))
+    (cond
+     ((file-directory-p normal)
+      (add-to-list 'load-path normal)
+      (require library))
+     ((file-directory-p suffix)
+      (add-to-list 'load-path suffix)
+      (require library))
+     ((file-exists-p suffix)
+      (require library)))))
+
 (defun tonini-load-private-setup ()
   ;; Load all *.el file under the private directory
   (dolist (file (directory-files tonini--cabbage-private-dir t "\\.el$"))
