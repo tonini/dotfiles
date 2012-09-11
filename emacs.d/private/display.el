@@ -14,3 +14,4 @@
 
 ;; start in full-screen mode
 (ns-toggle-fullscreen)
+(tool-bar-mode -1)
