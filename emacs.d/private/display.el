@@ -10,7 +10,7 @@
 ;; set the cursor type
 (setq default-cursor-type 'box)
 
-(set-frame-font "-apple-Bitstream_Vera_Sans_Mono-medium-r-normal--14-130-72-72-m-130-iso10646-1")
+(set-frame-font "-apple-Source_Code_Pro-medium-r-normal--15-130-72-72-m-130-iso10646-1")
 
 ;; start in full-screen mode
 (ns-toggle-fullscreen)
