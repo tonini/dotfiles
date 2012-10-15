@@ -13,3 +13,6 @@
 
 ;; buffer handling
 (cabbage-global-set-key (kbd "C-x M-k") 'kill-this-buffer)
+
+;; ace jump mode
+(define-key global-map (kbd "M-,") 'ace-jump-mode)
