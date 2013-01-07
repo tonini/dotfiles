@@ -14,6 +14,7 @@
                         power-edit
                         project
                         python
+                        php
                         ruby
                         haml-and-sass
                         yaml
