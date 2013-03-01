@@ -50,7 +50,7 @@ alias cpw='bin/cucumber -p wip'
 
 alias ec='emacsclient'
 alias e=openemacs
-alias emacs=/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw
+alias emacs=/usr/local/Cellar/emacs/24.2/Emacs.app/Contents/MacOS/Emacs -nw
 
 # job
 alias fb='git push -f origin HEAD:build/sto0242'
