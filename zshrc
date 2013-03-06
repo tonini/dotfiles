@@ -2,6 +2,12 @@
 . ~/.zsh/aliases
 . ~/.zsh/completion
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+export EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
+export TM_RUBY=/usr/bin/ruby
+export PATH=/opt/homebrew/bin:/usr/local/git/bin:~/pear/bin:$PATH
+export MANPATH=/opt/local/share/man:$MANPATH
+export NODE_PATH=/usr/local/lib/node_modules
 
 PATH=/usr/local/share/python:/usr/local/bin:~/bin:~/.bin:/usr/local/sbin:~/pear/bin:$PATH
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
