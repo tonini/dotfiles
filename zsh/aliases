@@ -48,6 +48,9 @@ alias tlog='tail -f log/development.log'
 alias migrate='bin/rake db:migrate db:test:clone'
 alias cpw='bin/cucumber -p wip'
 
+# symfony
+alias sc='app/console'
+
 alias ec='emacsclient'
 alias e=openemacs
 alias emacs=/usr/local/Cellar/emacs/24.2/Emacs.app/Contents/MacOS/Emacs -nw
