@@ -4,6 +4,10 @@
 
 (add-to-list 'default-frame-alist '(background-color . "black"))
 
+(custom-set-faces
+ '(flymake-errline ((((class color)) (:background "red"))))
+ '(flymake-warnline ((((class color)) (:background "yellow")))))
+
 ;; set the cursor type
 (setq default-cursor-type 'box)
 
