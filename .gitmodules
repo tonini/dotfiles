@@ -13,3 +13,6 @@
 [submodule "emacs.d/vendor/gist"]
 	path = emacs.d/vendor/gist
 	url = https://github.com/defunkt/gist.el.git
+[submodule "emacs.d/vendor/slim-mode"]
+	path = emacs.d/vendor/slim-mode
+	url = https://github.com/slim-template/emacs-slim.git
