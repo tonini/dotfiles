@@ -16,3 +16,6 @@
 [submodule "emacs.d/vendor/slim-mode"]
 	path = emacs.d/vendor/slim-mode
 	url = https://github.com/slim-template/emacs-slim.git
+[submodule "emacs.d/vendor/mustache-mode"]
+	path = emacs.d/vendor/mustache-mode
+	url = https://github.com/mustache/emacs.git
