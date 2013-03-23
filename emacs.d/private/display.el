@@ -2,7 +2,7 @@
 (if (fboundp 'blink-cursor-mode)
     (blink-cursor-mode 0))
 
-(add-to-list 'default-frame-alist '(background-color . "black"))
+;; (add-to-list 'default-frame-alist '(background-color . "black"))
 
 (custom-set-faces
  '(flymake-errline ((((class color)) (:background "red"))))

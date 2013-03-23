@@ -7,3 +7,5 @@ emacs.d/backup.*
 emacs.d/org-clock-save.el
 emacs.d/ac-comphist.dat
 emacs.d/tramp
+emacs.d/elpa
+emacs.d/var

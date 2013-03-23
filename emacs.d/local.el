@@ -25,6 +25,12 @@
      ((file-exists-p suffix)
       (require library)))))
 
+(require 'package)
+(add-to-list 'package-archives
+    '("marmalade" .
+      "http://marmalade-repo.org/packages/"))
+(package-initialize)
+
 (defun tonini-load-private-setup ()
   ;; Load all *.el file under the private directory
   (dolist (file (directory-files tonini--cabbage-private-dir t "\\.el$"))
