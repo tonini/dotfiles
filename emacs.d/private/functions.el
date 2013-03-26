@@ -12,3 +12,10 @@
                              'git-grep-history)))
   (let ((grep-use-null-device nil))
     (grep command-args)))
+
+
+(defun tonini--open-dirtree-in-project-root ()
+  (interactive)
+  (if (get-buffer "*dirtree*")
+      (kill-buffer dirtree-buffer))
+  (dirtree (cabbage-project-root) t))

@@ -27,7 +27,7 @@
                         slim
                         mustache
                         solarized-themes
+                        dirtree
                         ))
 
-;; see https://github.com/senny/theme-roller.el for a list of available themes
 (setq cabbage-theme 'color-theme-ir-black)
