@@ -19,9 +19,6 @@
 [submodule "emacs.d/vendor/mustache-mode"]
 	path = emacs.d/vendor/mustache-mode
 	url = https://github.com/mustache/emacs.git
-[submodule "emacs.d/vendor/solarized-themes"]
-	path = emacs.d/vendor/solarized-themes
-	url = https://github.com/sellout/emacs-color-theme-solarized.git
 [submodule "emacs.d/vendor/ag"]
 	path = emacs.d/vendor/ag
 	url = https://github.com/Wilfred/ag.el.git

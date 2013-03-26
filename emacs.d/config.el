@@ -26,9 +26,8 @@
                         github
                         slim
                         mustache
-                        solarized-themes
                         dirtree
                         ag
                         ))
 
-(setq cabbage-theme 'color-theme-ir-black)
+(setq cabbage-theme 'color-theme-lazy)
