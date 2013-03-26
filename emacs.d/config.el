@@ -28,6 +28,7 @@
                         mustache
                         solarized-themes
                         dirtree
+                        ag
                         ))
 
 (setq cabbage-theme 'color-theme-ir-black)
