@@ -1,3 +1,3 @@
 (cabbage-vendor 'ag)
 
-(setq ag-highlight-search t)
+(setq ag-highlight-search nil)
