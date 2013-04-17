@@ -15,7 +15,10 @@
 (cabbage-global-set-key (kbd "C-x M-k") 'kill-this-buffer)
 
 ;; ace jump mode
-(define-key global-map (kbd "M-,") 'ace-jump-mode)
+(define-key global-map (kbd "M-,") 'yas/expand)
 
 ;; dirtree
 (cabbage-global-set-key (kbd "C-x t") 'tonini--open-dirtree-in-project-root)
+
+;; PeepOpen
+(cabbage-global-set-key (kbd "M-t") 'peepopen-goto-file-gui)

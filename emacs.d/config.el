@@ -28,6 +28,7 @@
                         mustache
                         dirtree
                         ag
+                        peepopen
                         ))
 
-(setq cabbage-theme 'color-theme-lazy)
+(setq cabbage-theme 'color-theme-ir-black)
