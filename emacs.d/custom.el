@@ -3,8 +3,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default-frame-alist (quote ((vertical-scroll-bars) (left . 1) (top . 1) (background-color . "black") (background-mode . dark) (border-color . "black") (cursor-color . "#FFFFFF") (foreground-color . "#EDEDED") (mouse-color . "#bcd5fa"))))
+ '(cabbage-completion-framework (quote auto-complete))
  '(cabbage-org-files "~/Dropbox/org/")
+ '(cabbage-theme (quote color-theme-ir-black))
+ '(default-frame-alist (quote ((vertical-scroll-bars) (left . 1) (top . 1) (background-color . "black") (background-mode . dark) (border-color . "black") (cursor-color . "#FFFFFF") (foreground-color . "#EDEDED") (mouse-color . "#bcd5fa"))))
  '(ns-pop-up-frames nil)
  '(org-clock-out-when-done nil)
  '(org-clock-persist t)
@@ -15,4 +17,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-)
+ '(flymake-errline ((((class color)) (:background "red"))))
+ '(flymake-warnline ((((class color)) (:background "yellow"))))
+ '(org-hide ((t (:foreground "#073642")))))
