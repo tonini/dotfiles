@@ -15,7 +15,7 @@
 (cabbage-global-set-key (kbd "C-x M-k") 'kill-this-buffer)
 
 ;; ace jump mode
-(define-key global-map (kbd "M-,") 'yas/expand)
+(cabbage-global-set-key (kbd "M-,") 'yas/expand)
 
 ;; dirtree
 (cabbage-global-set-key (kbd "C-x t") 'tonini--open-dirtree-in-project-root)

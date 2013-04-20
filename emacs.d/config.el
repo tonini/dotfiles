@@ -29,6 +29,7 @@
                         dirtree
                         ag
                         peepopen
+                        rbenv
                         ))
 
 (setq cabbage-theme 'color-theme-ir-black)

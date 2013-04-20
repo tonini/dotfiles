@@ -22,3 +22,6 @@
 [submodule "emacs.d/vendor/ag"]
 	path = emacs.d/vendor/ag
 	url = https://github.com/Wilfred/ag.el.git
+[submodule "emacs.d/vendor/rbenv"]
+	path = emacs.d/vendor/rbenv
+	url = git://github.com/senny/rbenv.el.git
