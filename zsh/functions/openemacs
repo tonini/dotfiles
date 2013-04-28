@@ -1,5 +1,5 @@
-if [ -f ~/.emacsserver ]; then
- ec $1
+if ps aux | grep '[e]macs' > /dev/null; then
+ emacsclient -c $1
 else
- open -a /usr/local/Cellar/emacs/24.2/Emacs.app $1
+ emacs $1
 fi

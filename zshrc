@@ -2,7 +2,7 @@
 . ~/.zsh/aliases
 . ~/.zsh/completion
 
-export EDITOR="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
+export EDITOR="emacsclient -c"
 export TM_RUBY=/usr/bin/ruby
 export PATH=/opt/homebrew/bin:/usr/local/git/bin:~/pear/bin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH

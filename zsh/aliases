@@ -52,9 +52,8 @@ alias cpw='bin/cucumber -p wip'
 # symfony
 alias sc='app/console'
 
-alias ec='emacsclient'
+alias ec='emacsclient -c'
 alias e=openemacs
-alias emacs=/usr/local/Cellar/emacs/24.2/Emacs.app/Contents/MacOS/Emacs -nw
 
 # job
 alias fb='git push -f origin HEAD:build/sto0242'
