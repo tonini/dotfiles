@@ -33,4 +33,5 @@
       '((sequence "TODO(t)" "|" "DONE")
         (sequence "BUG(b)" "|" "FIXED")
         (sequence "FEATURE(f)" "|" "FINISHED")
+        (sequence "MEETING(m)" "|" "DONE")
         (sequence "|" "CANCELED")))
