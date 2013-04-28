@@ -18,7 +18,6 @@
 (cabbage-global-set-key (kbd "M-,") 'yas/expand)
 
 ;; dirtree
-(cabbage-global-set-key (kbd "C-x t") 'tonini--open-dirtree-in-project-root)
+(cabbage-global-set-key (kbd "C-x t") 'dired-other-window)
 
-;; PeepOpen
-(cabbage-global-set-key (kbd "M-t") 'peepopen-goto-file-gui)
+(cabbage-global-set-key (kbd "M-+") 'cabbage-enlargement-restore)
