@@ -28,8 +28,8 @@
                         mustache
                         dirtree
                         ag
-                        peepopen
                         rbenv
+                        pbcopy
                         ))
 
 (setq cabbage-theme 'color-theme-ir-black)
