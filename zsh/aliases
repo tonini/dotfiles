@@ -55,9 +55,5 @@ alias sc='app/console'
 alias ec='emacsclient -c'
 alias e=openemacs
 
-# job
-alias fb='git push -f origin HEAD:build/sto0242'
-alias go_build1='ssh sto0242@BUILDAGENT131.garaio.com'
-alias go_build2='ssh sto0242@BUILDAGENT132.garaio.com'
-alias use_source='use_gemfile_with_source && bundle'
-alias use_git='use_gemfile_with_git && bundle'
+# tmux
+alias mxw='mux start work'
