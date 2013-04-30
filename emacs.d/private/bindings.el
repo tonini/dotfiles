@@ -21,3 +21,14 @@
 (cabbage-global-set-key (kbd "C-x t") 'dired-other-window)
 
 (cabbage-global-set-key (kbd "M-+") 'cabbage-enlargement-restore)
+
+;; emacs-git-gutter
+(global-set-key (kbd "C-x v t") 'git-gutter:toggle)
+(global-set-key (kbd "C-x v ?") 'git-gutter:popup-hunk)
+
+;; Jump to next/previous hunk
+(global-set-key (kbd "C-x v p") 'git-gutter:previous-hunk)
+(global-set-key (kbd "C-x v n") 'git-gutter:next-hunk)
+
+;; Revert current hunk
+(global-set-key (kbd "C-x v r") 'git-gutter:revert-hunk)
