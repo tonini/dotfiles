@@ -6,6 +6,10 @@
 (set-face-background 'region "#073642")
 (set-cursor-color "#839496")
 
+(set-face-background 'modeline-inactive "black")
+(set-face-foreground 'vertical-border "black")
+(set-face-background 'vertical-border "black")
+
 (custom-set-faces
  '(flymake-errline ((((class color)) (:background "red"))))
  '(flymake-warnline ((((class color)) (:background "yellow"))))
