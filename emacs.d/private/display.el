@@ -3,7 +3,6 @@
     (blink-cursor-mode 0))
 
 (add-to-list 'default-frame-alist '(background-color . "#002b36"))
-(set-face-background 'region "#073642")
 (set-cursor-color "#839496")
 
 (set-face-background 'modeline-inactive "black")
