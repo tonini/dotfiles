@@ -28,8 +28,8 @@
                         mustache
                         dirtree
                         ag
-                        rbenv
-                        pbcopy
+                        rvm
+                        elixir
                         ))
 
 (setq cabbage-theme 'color-theme-ir-black)
