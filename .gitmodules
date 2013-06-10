@@ -28,3 +28,6 @@
 [submodule "emacs.d/vendor/elixir-mode-setup"]
 	path = emacs.d/vendor/elixir-mode-setup
 	url = git://github.com/elixir-lang/emacs-elixir.git
+[submodule "emacs.d/vendor/elixir-mix"]
+	path = emacs.d/vendor/elixir-mix
+	url = https://github.com/tonini/elixir-mix.el

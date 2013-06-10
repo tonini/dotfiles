@@ -30,6 +30,7 @@
                         ag
                         rvm
                         elixir
+                        elixir-mix
                         ))
 
 (setq cabbage-theme 'color-theme-ir-black)
