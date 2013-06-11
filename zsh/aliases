@@ -52,7 +52,7 @@ alias cpw='bin/cucumber -p wip'
 # symfony
 alias sc='app/console'
 
-alias ec='emacsclient -c'
+alias ec='emacsclient'
 alias e=openemacs
 
 # tmux
