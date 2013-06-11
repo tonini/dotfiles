@@ -19,3 +19,10 @@
   (if (get-buffer "*dirtree*")
       (kill-buffer dirtree-buffer))
   (dirtree (cabbage-project-root) t))
+
+(defun tonini--toggle-fullscreen ()
+  "Toggle full screen"
+  (interactive)
+  (set-frame-parameter
+     nil 'fullscreen
+     (when (not (frame-parameter nil 'fullscreen)) 'fullboth)))
