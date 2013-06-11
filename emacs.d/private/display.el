@@ -2,12 +2,13 @@
 (if (fboundp 'blink-cursor-mode)
     (blink-cursor-mode 0))
 
-(add-to-list 'default-frame-alist '(background-color . "#002b36"))
+(add-to-list 'default-frame-alist '(background-color . "#000000"))
 (set-cursor-color "#839496")
 
 (set-face-background 'modeline-inactive "black")
 (set-face-foreground 'vertical-border "black")
 (set-face-background 'vertical-border "black")
+(set-frame-parameter nil 'fullscreen 'fullboth)
 
 (custom-set-faces
  '(flymake-errline ((((class color)) (:background "red"))))
