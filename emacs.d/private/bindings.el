@@ -20,8 +20,6 @@
 ;; dirtree
 (cabbage-global-set-key (kbd "C-x t") 'dired-other-window)
 
-(cabbage-global-set-key (kbd "M-+") 'cabbage-enlargement-restore)
-
 ;; emacs-git-gutter
 (global-set-key (kbd "C-x v t") 'git-gutter:toggle)
 (global-set-key (kbd "C-x v ?") 'git-gutter:popup-hunk)
