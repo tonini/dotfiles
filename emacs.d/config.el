@@ -31,6 +31,7 @@
                         rvm
                         elixir
                         elixir-mix
+                        powerline
                         ))
 
 (setq cabbage-theme 'color-theme-ir-black)
