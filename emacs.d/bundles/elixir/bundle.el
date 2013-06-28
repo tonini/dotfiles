@@ -1,6 +1,4 @@
-(cabbage-vendor 'elixir-mode-setup)
-(require 'elixir-mode-setup)
-(elixir-mode-setup)
+(cabbage-vendor 'elixir-mode)
 
 (defun cabbage-elixir-mode-hook ()
   (cabbage--set-pairs '("(" "{" "[" "\"" "\'" "|"))

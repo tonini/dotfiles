@@ -6,7 +6,6 @@
  '(cabbage-completion-framework (quote auto-complete))
  '(cabbage-org-files "~/Dropbox/org/")
  '(cabbage-theme (quote color-theme-ir-black))
- '(default-frame-alist (quote ((vertical-scroll-bars) (left . 1) (top . 1) (background-color . "black") (background-mode . dark) (border-color . "black") (cursor-color . "#FFFFFF") (foreground-color . "#EDEDED") (mouse-color . "#bcd5fa"))))
  '(ns-pop-up-frames nil)
  '(org-clock-out-when-done nil)
  '(org-clock-persist t)

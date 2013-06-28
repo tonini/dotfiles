@@ -13,7 +13,6 @@
   (let ((grep-use-null-device nil))
     (grep command-args)))
 
-
 (defun tonini--open-dirtree-in-project-root ()
   (interactive)
   (if (get-buffer "*dirtree*")
@@ -26,3 +25,9 @@
   (set-frame-parameter
      nil 'fullscreen
      (when (not (frame-parameter nil 'fullscreen)) 'fullboth)))
+
+(defun tonini-load-elixir-mode-dev ()
+  (interactive)
+  (progn
+    (load-file "~/Projects/emacs-elixir/elixir-smie.el")
+    (load-file "~/Projects/emacs-elixir/elixir-mode.el")))

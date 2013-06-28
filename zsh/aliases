@@ -49,11 +49,11 @@ alias tlog='tail -f log/development.log'
 alias migrate='bin/rake db:migrate db:test:clone'
 alias cpw='bin/cucumber -p wip'
 
-# symfony
-alias sc='app/console'
-
 alias ec='emacsclient'
 alias e=openemacs
 
 # tmux
 alias mxw='mux start work'
+
+# vlc
+alias vlc=/Applications/VLC.app/Contents/MacOS/VLC
