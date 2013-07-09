@@ -34,4 +34,4 @@
                         powerline
                         ))
 
-(setq cabbage-theme 'color-theme-ir-black)
+(setq cabbage-theme 'color-theme-lazy)
