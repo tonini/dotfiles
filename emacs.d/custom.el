@@ -5,7 +5,6 @@
  ;; If there is more than one, they won't work right.
  '(cabbage-completion-framework (quote auto-complete))
  '(cabbage-org-files "~/Dropbox/org/")
- '(cabbage-theme (quote color-theme-ir-black))
  '(ns-pop-up-frames nil)
  '(org-clock-out-when-done nil)
  '(org-clock-persist t)
