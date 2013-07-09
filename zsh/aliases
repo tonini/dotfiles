@@ -39,13 +39,15 @@ alias groot='git rev-parse --show-toplevel'
 alias git='nocorrect noglob git'
 
 # rails
-alias rc='bin/rails c'
-alias rs='bin/rails s'
-alias rg='bin/rails g'
-alias rdb='bin/rails dbconsole'
+alias rc='rails c'
+alias rs='rails s'
+alias rg='rails g'
+alias rdb='rails dbconsole'
 alias tlog='tail -f log/development.log'
-alias migrate='bin/rake db:migrate db:test:clone'
-alias cpw='bin/cucumber -p wip'
+
+# cucumber
+alias c='cucumber'
+alias cpw='cucumber -p wip'
 
 alias ec='emacsclient'
 alias e=openemacs
