@@ -27,11 +27,11 @@
                         slim
                         mustache
                         dirtree
+                        tonini-display
                         ag
                         rvm
                         elixir
                         elixir-mix
-                        powerline
                         ))
 
 (setq cabbage-theme 'color-theme-lazy)
