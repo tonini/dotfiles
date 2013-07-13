@@ -8,7 +8,6 @@ export PATH=/opt/homebrew/bin:/usr/local/git/bin:~/pear/bin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
 export NODE_PATH="/usr/local/share/npm/lib/node_modules"
 
-PATH=/usr/local/share/npm/bin/:/usr/local/share/python:/usr/local/bin:~/bin:~/.bin:/usr/local/sbin:~/pear/bin:$PATH
-PATH=$HOME/pear/bin/phpunit:$PATH
+PATH=/usr/local/share/npm/bin:/usr/local/bin:~/bin:~/.bin:/usr/local/sbin:$PATH
 PATH=$PATH:/usr/local/heroku/bin
 PATH=$PATH:$HOME/.rvm/bin
