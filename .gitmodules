@@ -25,15 +25,9 @@
 [submodule "emacs.d/vendor/rbenv"]
 	path = emacs.d/vendor/rbenv
 	url = git://github.com/senny/rbenv.el.git
-[submodule "emacs.d/vendor/elixir-mix"]
-	path = emacs.d/vendor/elixir-mix
-	url = https://github.com/tonini/elixir-mix.el
 [submodule "emacs.d/vendor/emms"]
 	path = emacs.d/vendor/emms
 	url = git://git.sv.gnu.org/emms.git
-[submodule "emacs.d/vendor/elixir-mode"]
-	path = emacs.d/vendor/elixir-mode
-	url = https://github.com/elixir-lang/emacs-elixir
 [submodule "emacs.d/vendor/powerline"]
 	path = emacs.d/vendor/powerline
 	url = https://github.com/jonathanchu/emacs-powerline
