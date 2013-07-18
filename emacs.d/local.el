@@ -4,7 +4,7 @@
 (add-to-list 'cabbage-bundle-dirs (expand-file-name "~/.emacs.d/bundles/"))
 (add-to-list 'cabbage-bundle-dirs (expand-file-name "~/Projects/cabbage-contrib/bundles/"))
 (add-to-list 'cabbage-vendor-dirs (expand-file-name "~/.emacs.d/vendor/"))
-(add-to-list 'cabbage-vendor-dirs (expand-file-name "~/Projects/cabbage-contrib/vendors/"))
+(add-to-list 'cabbage-vendor-dirs (expand-file-name "~/Projects/cabbage-contrib/vendor/"))
 
 (setq tonini-vendor-dir
       (expand-file-name "~/.emacs.d/vendor/"))
