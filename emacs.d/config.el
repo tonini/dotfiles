@@ -27,7 +27,6 @@
                         slim
                         mustache
                         dirtree
-                        tonini-display
                         ag
                         rvm
                         elixir
