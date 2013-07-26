@@ -33,4 +33,4 @@
                         elixir
                         ))
 
-(setq cabbage-theme 'color-theme-lazy)
+(setq cabbage-theme 'color-theme-ir-black)
