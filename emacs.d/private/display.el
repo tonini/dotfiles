@@ -6,4 +6,3 @@
 
 (set-frame-parameter nil 'fullscreen 'fullboth)
 (setq default-cursor-type 'box)
-(add-to-list 'default-frame-alist '(background-color . "black"))
