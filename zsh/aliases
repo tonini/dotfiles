@@ -36,6 +36,7 @@ alias gsv='git svn'
 alias gt='git tag'
 alias groot='git rev-parse --show-toplevel'
 alias ggr='cd $(git rev-parse --show-toplevel)'
+alias ggs='git log --format=raw -n 1'
 
 alias git='nocorrect noglob git'
 
