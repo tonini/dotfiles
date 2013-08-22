@@ -30,3 +30,6 @@
 
 ;; Revert current hunk
 (global-set-key (kbd "C-x v r") 'git-gutter:revert-hunk)
+
+(cabbage-global-set-key (kbd "C-x g") 'tonini-project-ido-go-project)
+(cabbage-global-set-key (kbd "<f5>") 'tonini-go-run-current-buffer)

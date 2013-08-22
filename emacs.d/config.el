@@ -30,6 +30,7 @@
                         ag
                         rvm
                         elixir
+                        go
                         ))
 
 (setq cabbage-theme 'color-theme-lazy)
