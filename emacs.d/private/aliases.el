@@ -1,6 +1,7 @@
 ;; rinari function aliases
 (defalias 'rs 'rinari-web-server)
 (defalias 'rsr 'rinari-web-server-restart)
+(defalias 'rc 'rinari-console)
 
 ;; magit function aliases
 (defalias 'ml 'magit-log)
