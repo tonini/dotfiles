@@ -34,3 +34,6 @@
 [submodule "emacs.d/vendor/org-sync"]
 	path = emacs.d/vendor/org-sync
 	url = git://orgmode.org/org-sync.git
+[submodule "emacs.d/vendor/floobits"]
+	path = emacs.d/vendor/floobits
+	url = https://github.com/Floobits/floobits-emacs.git

@@ -30,6 +30,8 @@
                         ag
                         rvm
                         elixir
+                        coffee-script
+                        floobits
                         ))
 
 (setq cabbage-theme 'color-theme-lazy)
