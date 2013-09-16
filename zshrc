@@ -11,3 +11,5 @@ export NODE_PATH="/usr/local/share/npm/lib/node_modules"
 PATH=/usr/local/share/npm/bin:/usr/local/bin:~/bin:~/.bin:/usr/local/sbin:$PATH
 PATH=$PATH:/usr/local/heroku/bin
 PATH=$PATH:$HOME/.rvm/bin
+# added by travis gem
+source /Users/tonini/.travis/travis.sh
