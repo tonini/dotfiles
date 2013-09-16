@@ -1,5 +1,7 @@
 fpath=(~/.zsh/functions $fpath)
 
+. ~/.zsh/prompt
+
 autoload -U ~/.zsh/functions/*(:t)
 autoload colors; colors;
 
@@ -7,9 +9,9 @@ setopt no_beep auto_cd complete_in_word correct rm_star_wait prompt_subst prompt
 unsetopt auto_name_dirs
 cdpath=(. ~/Projects )
 
-autoload -U promptinit
-promptinit
-prompt grb
+# autoload -U promptinit
+# promptinit
+# prompt grb
 
 export GREP_OPTIONS="--color"
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
