@@ -10,3 +10,4 @@
 ;; custom `tonini-' function aliases
 (defalias 'ts 'tonini-toggle-fullscreen)
 (defalias 'l3 'tonini-browse-localhost-port-3000)
+(defalias 'ks 'tonini-start-karma-server-i)
