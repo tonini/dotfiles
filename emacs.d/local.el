@@ -6,6 +6,14 @@
 (add-to-list 'cabbage-vendor-dirs (expand-file-name "~/.emacs.d/vendor/"))
 (add-to-list 'cabbage-vendor-dirs (expand-file-name "~/Projects/cabbage-contrib/vendor/"))
 
+;; `gc-cons-threshold'
+;;
+;; http://www.gnu.org/software/emacs/manual/html_node/elisp/Garbage-Collection.html
+;;
+;; I have a modern machine ;)
+;;
+(setq gc-cons-threshold 20000000)
+
 (setq tonini-vendor-dir
       (expand-file-name "~/.emacs.d/vendor/"))
 
