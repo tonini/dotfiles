@@ -34,4 +34,4 @@
                         floobits
                         ))
 
-(setq cabbage-theme 'color-theme-monokai)
+(setq cabbage-theme 'color-theme-github)
