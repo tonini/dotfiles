@@ -1,13 +1,3 @@
-(defvar tonini-karma-command "karma"
-  "The command for karma start.")
-
-(defun tonini-start-karma-server (config)
-  (compile (format "%s start %s" tonini-karma-command config)))
-
-(defun tonini-start-karma-server-i ()
-  (interactive)
-  (tonini-start-karma-server (format "%s/karma.coffee" (cabbage-project-root))))
-
 (defun tonini-jasmine-node-run-single-file (filename)
   (compile (format "%s %s" "jasmine-node" filename)))
 
