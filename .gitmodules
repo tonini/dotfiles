@@ -37,3 +37,6 @@
 [submodule "emacs.d/vendor/floobits"]
 	path = emacs.d/vendor/floobits
 	url = https://github.com/Floobits/floobits-emacs.git
+[submodule "emacs.d/vendor/karma"]
+	path = emacs.d/vendor/karma
+	url = git@github.com:tonini/karma.el.git

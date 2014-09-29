@@ -32,6 +32,7 @@
                         elixir
                         coffee-script
                         floobits
+                        karma
                         ))
 
-(setq cabbage-theme 'color-theme-github)
+(setq cabbage-theme 'color-theme-twilight)
