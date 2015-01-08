@@ -8,6 +8,9 @@ plugins=(git mix)
 
 source $ZSH/oh-my-zsh.sh
 
+# powerline
+#. ~/Applications/powerline/powerline/bindings/zsh/powerline.zsh
+
 # personal config
 
 . ~/.zsh/aliases
