@@ -1,24 +1,25 @@
-# oh-my-zsh config
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
 
-export ZSH=$HOME/.oh-my-zsh
-
-ZSH_THEME="lambda"
-
-plugins=(git mix)
-
-source $ZSH/oh-my-zsh.sh
-
-# powerline
-#. ~/Applications/powerline/powerline/bindings/zsh/powerline.zsh
-
-# personal config
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
 
 . ~/.zsh/aliases
 
-cdpath=(. ~/Projects )
+# cdpath=(. ~/Projects )
 
 fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
+
+c() { cd ~/Projects/$1; }
+_c() { _files -W ~/Projects -/; }
+compdef _c c
 
 export EDITOR="emacsclient -t"
 export TM_RUBY=/usr/bin/ruby
