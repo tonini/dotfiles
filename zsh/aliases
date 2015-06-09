@@ -59,3 +59,6 @@ alias mxw='mux start work'
 
 # vlc
 alias vlc=/Applications/VLC.app/Contents/MacOS/VLC
+
+alias c='nocorrect c'
+alias h='nocorrect h'
