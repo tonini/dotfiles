@@ -48,7 +48,5 @@ export CLOJURESCRIPT_HOME="/Users/tonini/code/clojurescript"
 export PATH=/usr/local/bin:~/bin:~/.bin:/usr/local/sbin:$PATH
 export PATH=$PATH:/usr/local/heroku/bin
 export PATH=$PATH:$CLOJURESCRIPT_HOME/bin
-# added by travis gem
-source /Users/tonini/.travis/travis.sh
 
 eval "$(rbenv init -)"
