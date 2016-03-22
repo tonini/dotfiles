@@ -40,11 +40,14 @@ alias ggs='git log --format=raw -n 1'
 
 alias git='nocorrect noglob git'
 
+# bundler (ruby)
+alias bx='bundle exec'
+
 # rails
-alias rc='bin/rails c'
-alias rs='bin/rails s'
-alias rg='bin/rails g'
-alias rdb='bin/rails dbconsole'
+alias rc='bundle exec rails c'
+alias rs='bundle exec rails s'
+alias rg='bundle exec rails g'
+alias rdb='bundle exec rails dbconsole'
 alias tlog='tail -f log/development.log'
 
 # cucumber
@@ -62,3 +65,5 @@ alias vlc=/Applications/VLC.app/Contents/MacOS/VLC
 
 alias c='nocorrect c'
 alias h='nocorrect h'
+
+alias man='_() { echo $1; man -M $(brew --prefix)/opt/coreutils/libexec/gnuman $1 1>/dev/null 2>&1;  if [ "$?" -eq 0 ]; then man -M $(brew --prefix)/opt/coreutils/libexec/gnuman $1; else man $1; fi }; _'
